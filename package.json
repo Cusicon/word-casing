@@ -1,5 +1,5 @@
 {
-  "name": "word-casing",
+  "name": "@successchukwu/word-casing",
   "version": "1.0.0",
   "description": "A library for word casing",
   "main": "casing.js",
@@ -12,7 +12,12 @@
   },
   "keywords": [
     "word",
-    "casing"
+    "words",
+    "casing",
+    "case",
+    "npm-casing",
+    "sentence",
+    "word-casing"
   ],
   "author": "Success Chukwu <chuxsuccess0@gmail.com>",
   "license": "ISC",
