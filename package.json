@@ -1,5 +1,5 @@
 {
-  "name": "@successchukwu/word-casing",
+  "name": "word-casing",
   "version": "1.0.0",
   "description": "A library for word casing",
   "main": "casing.js",
