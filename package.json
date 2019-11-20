@@ -1,7 +1,7 @@
 {
   "name": "word-casing",
-  "version": "1.0.1",
-  "description": "Word casing is a Javascript library for converting a statement into sentence-case words.",
+  "version": "1.0.2",
+  "description": "A Javascript library for converting a statement into sentence-case words.",
   "main": "casing.js",
   "scripts": {
     "test": ""
@@ -12,12 +12,10 @@
   },
   "keywords": [
     "word",
-    "words",
-    "casing",
     "case",
-    "npm-casing",
+    "casing",
+    "statement",
     "sentence",
-    "sentence-cases",
     "word-casing"
   ],
   "author": "Success Chukwu <chuxsuccess0@gmail.com>",

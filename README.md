@@ -1,12 +1,10 @@
 # Word Casing
 
-Word casing is a Javascript library for converting a statement into sentence-case words.
+Word casing is a client-side Javascript library for converting a statement into sentence-case words.
 
 ## Installation
 
-Use the package manager [npm](https://npmjs.org) to install word-casing
-
-See package at [npmjs.org/word-casing](https://www.npmjs.com/package/word-casing)
+Use the node package manager [npm](https://www.npmjs.com) to install word-casing
 
 ```bash
 npm i word-casing
@@ -14,24 +12,14 @@ npm i word-casing
 
 ## Usage
 
-Front-end
-
-```javascript
+```JavaScript
 <script src="[path-to-package].js"></script>;
 
 OR;
 
 import "word-casing";
 
-let words = toSentenceCase("sentence");
-```
-
-Back-end
-
-```javascript
-require("word-casing");
-
-let words = toSentenceCase(words);
+let words = toSentenceCase("statement");
 ```
 
 ## Contributing
