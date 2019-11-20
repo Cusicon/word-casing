@@ -1,10 +1,10 @@
 {
   "name": "word-casing",
-  "version": "1.0.0",
-  "description": "A library for word casing",
+  "version": "1.0.1",
+  "description": "Word casing is a Javascript library for converting a statement into sentence-case words.",
   "main": "casing.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
     "case",
     "npm-casing",
     "sentence",
+    "sentence-cases",
     "word-casing"
   ],
   "author": "Success Chukwu <chuxsuccess0@gmail.com>",
