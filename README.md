@@ -23,7 +23,7 @@ OR;
 
 import "word-casing";
 
-let words = toSentenceCase(words);
+let words = toSentenceCase("sentence");
 ```
 
 Back-end
