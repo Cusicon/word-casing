@@ -34,4 +34,6 @@ let toSentenceCase = (word) => {
   }
   result = word.replace(word.charAt(0), word.charAt(0).toUpperCase())
   return result
-},
+}
+
+module.exports = { toNameCase, toSentenceCase }
