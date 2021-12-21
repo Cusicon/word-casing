@@ -1,12 +1,20 @@
 {
   "name": "word-casing",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Word casing is a Javascript library for converting statements into name and sentence-like words.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["sentence case", "name case"],
   "author": "Success Chukwu",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cusicon/word-casing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cusicon/word-casing/issues"
+  },
+  "homepage": "https://github.com/Cusicon/word-casing#readme"
 }
