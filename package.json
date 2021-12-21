@@ -1,27 +1,12 @@
 {
   "name": "word-casing",
-  "version": "1.0.2",
-  "description": "A Javascript library for converting a statement into sentence-case words.",
-  "main": "casing.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cusicon/word-casing.git"
-  },
-  "keywords": [
-    "word",
-    "case",
-    "casing",
-    "statement",
-    "sentence",
-    "word-casing"
-  ],
-  "author": "Success Chukwu <chuxsuccess0@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Cusicon/word-casing/issues"
-  },
-  "homepage": "https://github.com/Cusicon/word-casing#readme"
+  "keywords": [],
+  "author": "Success Chukwu",
+  "license": "MIT"
 }
