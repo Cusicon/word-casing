@@ -6,26 +6,40 @@ Word casing is a client-side Javascript library for converting a statement into 
 
 Use the node package manager [npm](https://www.npmjs.com) to install word-casing
 
-### Using NPM
+#### Using NPM
 ```bash
 npm i word-casing
 ```
 
-### Using YARN
+#### Using YARN
 ```bash
 yarn add word-casing
+```
+
+## Initialization
+
+```HTML
+<script src="[path-to-package].js"></script>;
+```
+
+OR;
+
+```JavaScript
+require("word-casing");
+```
+
+OR;
+
+```JavaScript
+import "word-casing";
 ```
 
 ## Usage
 
 ```JavaScript
-<script src="[path-to-package].js"></script>;
+"john doe".toNameCase()
 
-OR;
-
-const { toSentenceCase } = require("word-casing");
-
-let words = toSentenceCase("statement");
+// Result: John Doe
 ```
 
 ## Contributing

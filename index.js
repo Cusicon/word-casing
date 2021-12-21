@@ -1,7 +1,9 @@
-// Convert string into humna name like
-let toNameCase = (word) => {
-  word = word.toLowerCase().trim()
+// Convert string into human name like
+String.prototype.toNameCase = function () {
+  let word = this.valueOf()
   let result = ""
+
+  word = word.toLowerCase().trim()
   if (word.includes(" ")) {
     let wordArr = []
     let words = word.split(" ")
@@ -18,9 +20,11 @@ let toNameCase = (word) => {
 }
 
 // Convert string into sentence like
-let toSentenceCase = (word) => {
-  word = word.toLowerCase().trim()
+String.prototype.toSentenceCase = function () {
+  let word = this.valueOf()
   let result = ""
+
+  word = word.toLowerCase().trim()
   if (word.includes(".")) {
     let wordArr = []
     let words = word.split(" ")
@@ -35,5 +39,3 @@ let toSentenceCase = (word) => {
   result = word.replace(word.charAt(0), word.charAt(0).toUpperCase())
   return result
 }
-
-module.exports = { toNameCase, toSentenceCase }
