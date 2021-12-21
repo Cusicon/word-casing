@@ -17,7 +17,7 @@ npm i word-casing
 
 OR;
 
-import "word-casing";
+const { toSentenceCase } = require("word-casing");
 
 let words = toSentenceCase("statement");
 ```
