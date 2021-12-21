@@ -6,8 +6,14 @@ Word casing is a client-side Javascript library for converting a statement into 
 
 Use the node package manager [npm](https://www.npmjs.com) to install word-casing
 
+### Using NPM
 ```bash
 npm i word-casing
+```
+
+### Using YARN
+```bash
+yarn add word-casing
 ```
 
 ## Usage
