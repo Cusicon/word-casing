@@ -1,6 +1,6 @@
 {
   "name": "word-casing",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Word casing is a Javascript library for converting statements into name and sentence-like words.",
   "main": "index.js",
   "scripts": {
